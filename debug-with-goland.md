@@ -86,7 +86,7 @@ Here's how the Debug window will look like:
 
 ### label with 3rd party lib
 
-By this way, you can add labels to any function without a explicit start of goroutine.
+By this way, you can add labels to any function without a explicit wrapper.
 
 First, import the library in your code.
 
