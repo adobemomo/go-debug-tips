@@ -152,7 +152,7 @@ go func() {
 To enable mutex and blocks profiling, you'll also need to set the corresponding fraction to a positive integer:
 ```go
 runtime.SetMutexProfileFraction(1) // enable mutex profile
-	runtime.SetBlockProfileRate(1) // enable block profile
+runtime.SetBlockProfileRate(1) // enable block profile
 ```
 
 To make life easier, you can also use `graphviz` to visualize the call stack:
